@@ -1,7 +1,8 @@
-# How to deploy this Serverless Application?
-This application consists of AWS Lambda Functions and related AWS resources including VPC/Nat Gateway/API Gateway etc.. need AWS CLI, AWS CDK and AWS SAM to deploy.
+# How AWS CDK and SAM works together?
+Following the steps below, you can deploy a serverless application with all AWS resources provisioned by CDK, but still can leverage SAM for local testing lambda and packaging
 
-> How to use AWS CDK and SAM together? Following the steps below, you can deploy a serverless application with resources provisioned by CDK, but still can leverage SAM for local testing lambda and packaging.
+## What is included in this serverless application?
+It consists of a sample Lambda function and related AWS resources including VPC/Nat Gateway/API Gateway, the lambda function is configured to sit in VPC. To deploy the application, AWS CLI, AWS CDK and AWS SAM are required.
 
 ## Install AWS CLI (AWS Command Line Interface)
 - Follow this [link](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html) to install AWS CLI on a Linux/MacOS/Windows workstation, you will issue commands to AWS from this workstation to setup various resources and workloads.

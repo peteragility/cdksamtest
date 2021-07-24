@@ -24,7 +24,7 @@ public class CdksamtestStack extends Stack {
     public CdksamtestStack(final Construct parent, final String id, final StackProps props) {
         super(parent, id, props);
 
-        Vpc myVpc = Vpc.Builder.create(this, "peter-test-vpc")
+        Vpc myVpc = Vpc.Builder.create(this, "my-test-vpc")
             .natGateways(1)
             .build();
 
